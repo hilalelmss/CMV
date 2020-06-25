@@ -1,0 +1,19 @@
+<p-table [value]="news" selectionMode="single" [(selection)]="selectedNews" dataKey="vin" (onRowSelect)="onRowSelect($event)" rowSelection='single'>
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Başlık</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-rowData let-new>
+    <tr [pSelectableRow]="rowData">
+      <td>{{new.topic}}</td>
+    </tr>
+  </ng-template>
+
+</p-table>
+
+<p-dialog header="{{topic}}" [(visible)]="display" [style]="{width: '50vw'}" >
+  {{detail}}
+</p-dialog>
+
+

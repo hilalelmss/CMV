@@ -1,0 +1,8 @@
+insert into news (detail, topic, id) values ('Dünya Sağlık Örgütü (WHO) Genel Direktörü Tedros Adhanom Ghebreyesus, corona virüs salgını ile ilgili son dakika açıklamalarda bulundu.Ghebreyesus coronavirüs ile ilgili yaptığı açıklamasında 21 Haziran Pazar günü itibariyle bir günde vaka sayısında korkutan bir artış yaşandığını dile getirdi.','Dünya Sağlık Örgütü (WHO)', 'd3aa0a8d-58a3-4514-8cf2-9ba1930530eb');
+insert into news (detail, topic, id) values ('Dünya genelinde bir çok ülkede aşı deneyleri ve çalışmaları yürütülürken Çin Hastalık Önleme ve Kontrol Merkezi Başkanı Wu Zunyou, koronavirüs aşısının 2020 sonunda dünyaya tanıtılacağını açıkladı.','Koronavirüs aşısında son durum','9cd4631a-6f54-4c69-872e-63ff0d029709');
+insert into news (detail, topic, id) values ('ELLER-Sık sık yıkayın, DİRSEK-İçine doğru öksürün, YÜZ-Dokunmaktan kaçının, MESAFE-Uzaklığı koruyun,EV-Mümkünse evde kalın','Koronavirüs korunma yolları','5290231d-5a91-48fe-8de3-709c9ab05cc5');
+
+insert into announcement(id,subject,date) values('a2039ab0-70d0-4e49-aa28-fe9ea0859622','Kovid-19 ile Mücadele Konusunda Çin ile Videokonferans Gerçekleştirildi','2020-06-22');
+insert into announcement(id,subject,date) values('2bebe433-6512-410e-8a3e-314e763490d7','Son 14 gün içerisinde yeni koronavirüs hastalığı görülen ülkelerden birinden geldiyseniz, ateş, öksürük, solunum sıkıntısı gibi belirti ve bulgularınız olmasa bile 14 gün süresince evden çıkmamalısınız','2020-05-26');
+insert into announcement(id,subject,date) values('f9570886-aeae-4442-84de-7196f7c39d02','Corona Türkiye','2020-06-22');
+insert into announcement(id,subject,date) values('6c761ee2-47b9-4a2b-b8e3-15a1302748b3','Maske Kullanmamak Kişisel Hukukun İhlalidir','2020-06-20');
